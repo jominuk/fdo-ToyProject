@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      시작하기
+      시작하기 한번더 
     </div>
   );
 }
