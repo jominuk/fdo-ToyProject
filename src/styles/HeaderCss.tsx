@@ -24,18 +24,34 @@ export const HeaderCss = {
             margin-left: 100px;
         }
     `,
+
+         // 백그라운드 제일 위에만 있게 하려면
+    // Wrapper : styled.div`
+    //     width: 100%;
+    //     height: 100vh;
+    //     position: relative;
+    //      
+    // `,
+    // IntroVideo : styled.div`
+    // width: 100%;
+    // height: 100%;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // z-index: -1;
     Wrapper : styled.div`
         width: 100%;
         height: 100vh;
         position: relative;
+        overflow: hidden;
     `,
     IntroVideo : styled.div`
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 0;
+        left: 0;
         z-index: -1;
         p{
             position: absolute; left: 50%; bottom: 15%;
@@ -65,6 +81,16 @@ export const HeaderCss = {
         }
         }
     `,
+    // 이건 버리기
+    VideoWrapper: styled.div`
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    `,
+
     Video : styled.video`
         width: 100%;
         height: 100%;

@@ -15,7 +15,6 @@ const MainPage = () => {
             setScrolling(false);
           }
         };
-    
         window.addEventListener("scroll", handleScroll);
 
         return () => {
@@ -39,20 +38,41 @@ const MainPage = () => {
                 </HeaderCss.MainMenu>
 
             </HeaderCss.Header>
+
             <HeaderCss.Wrapper>
                 <HeaderCss.IntroVideo>
-                    <HeaderCss.Video muted autoPlay loop>
-                        <source src="/video/main.mp4" type="video/mp4" />
-                    </HeaderCss.Video>
-                    <HeaderCss.titlenm>FDO</HeaderCss.titlenm>
-                    <p>scroll down</p>
-                    <img
-                        src={require("../images/down.png")}
-                        alt="화살표"
-                        className="down"
-                    />
+                    <HeaderCss.VideoWrapper>
+                        <HeaderCss.Video muted autoPlay loop>
+                            <source src="/video/main.mp4" type="video/mp4" />
+                        </HeaderCss.Video>
+                        <HeaderCss.titlenm>FDO</HeaderCss.titlenm>
+                        <p>scroll down</p>
+                        <img
+                            src={require("../images/down.png")}
+                            alt="화살표"
+                            className="down"
+                        />
+                    </HeaderCss.VideoWrapper>
                 </HeaderCss.IntroVideo>
             </HeaderCss.Wrapper>
+
+{/* 백그라운드 제일 위에만 있게 하려면  */}
+            {/* <HeaderCss.Wrapper>
+                <HeaderCss.IntroVideo>
+                    
+                        <HeaderCss.Video muted autoPlay loop>
+                            <source src="/video/main.mp4" type="video/mp4" />
+                        </HeaderCss.Video>
+                        <HeaderCss.titlenm>FDO</HeaderCss.titlenm>
+                        <p>scroll down</p>
+                        <img
+                            src={require("../images/down.png")}
+                            alt="화살표"
+                            className="down"
+                        />
+                    
+                </HeaderCss.IntroVideo>
+            </HeaderCss.Wrapper> */}
 
  
        
