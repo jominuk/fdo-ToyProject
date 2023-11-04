@@ -1,0 +1,9 @@
+.img {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: url("../images/bg1.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}

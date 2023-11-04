@@ -1,11 +1,55 @@
-import React from 'react'
+import React from "react";
+import "../styles/Community.css";
 
 const Community = () => {
   return (
-    <div>
-      asd
-    </div>
-  )
-}
+    <>
+      <div className="img">asd</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+      <div>123123</div>
+    </>
+  );
+};
 
-export default Community
+export default Community;
